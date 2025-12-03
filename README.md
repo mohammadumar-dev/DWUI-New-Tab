@@ -1,1 +1,1 @@
-# dwui-new-tab-modern
+# dwui-new-tab
