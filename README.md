@@ -7,6 +7,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-blue.svg?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-7.2.4-purple.svg?style=flat&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Shadcn UI](https://img.shields.io/badge/Shadcn%20UI-red.svg?style=flat&logo=shadcn&logoColor=white)](https://ui.shadcn.com/)
+[![Release](https://img.shields.io/github/v/release/mohammadumar-dev/dwui-new-tab?style=flat&logo=github)](https://github.com/mohammadumar-dev/dwui-new-tab/releases)
 
 ## 🛒 Browser Store Availability
 
