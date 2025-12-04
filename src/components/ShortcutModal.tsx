@@ -18,9 +18,6 @@ export type ShortcutItem = {
     icon: string; // favicon URL
 };
 
-import { HOST_ICONS } from "@/lib/icons";
-
-
 
 
 export default function ShortcutModal({ open, onClose, onAdd }: Props) {
@@ -35,10 +32,7 @@ export default function ShortcutModal({ open, onClose, onAdd }: Props) {
             const urlObj = new URL(link);
             const host = urlObj.hostname;
 
-            // 1) Check if we have a known icon
-            if (HOST_ICONS[host]) return HOST_ICONS[host];
-
-            // 2) Try Google Favicon API (works 90% cases)
+            // Try Google Favicon API (works 90% cases)
             return `https://www.google.com/s2/favicons?sz=64&domain=${urlObj}`;
         } catch {
             return "/default-icon.png";
