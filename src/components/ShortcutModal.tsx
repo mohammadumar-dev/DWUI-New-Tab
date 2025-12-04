@@ -30,9 +30,8 @@ export default function ShortcutModal({ open, onClose, onAdd }: Props) {
     const getFavicon = (link: string) => {
         try {
             const urlObj = new URL(link);
-            const host = urlObj.hostname;
 
-            // Try Google Favicon API (works 90% cases)
+            // Try Google Favicon API (works in 90% cases)
             return `https://www.google.com/s2/favicons?sz=64&domain=${urlObj}`;
         } catch {
             return "/default-icon.png";
